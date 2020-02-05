@@ -1,0 +1,3 @@
+[submodule "comments-main"]
+	path = comments-main
+	url = https://github.com/SoundClone/comments-main
