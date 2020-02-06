@@ -1,3 +1,6 @@
 [submodule "comments-main"]
 	path = comments-main
 	url = https://github.com/SoundClone/comments-main
+[submodule "BottomTopBar"]
+	path = BottomTopBar
+	url = https://github.com/SoundClone/BottomTopBar
