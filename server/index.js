@@ -17,11 +17,17 @@ app.use(express.json());
 app.get('/api/comments', (req, res) => {
   axios.get('http://localhost:3001/api/comments')
     .then((res1) => {
-      console.log('HELLO WORLD')
       res.send(res1.data);
     });
 });
 
+app.get('/initial', (req, res) => {
+  axios.get('http://localhost:3000/initial')
+    .then((res1) => {
+      res.send(res1);
+    });
+});
+
 // Initialise
-const PORT = 3000;
+const PORT = 1000;
 app.listen(PORT, () => { console.log(`listening on http://localhost:${PORT}`) });
