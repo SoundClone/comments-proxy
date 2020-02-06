@@ -28,6 +28,13 @@ app.get('/initial', (req, res) => {
     });
 });
 
+app.get('/songs', (req, res) => {
+  axios.get('http://localhost:9000/songs')
+  .then((res1) => {
+    res.send(res1);
+  });
+});
+
 // Initialise
 const PORT = 1000;
 app.listen(PORT, () => { console.log(`listening on http://localhost:${PORT}`) });

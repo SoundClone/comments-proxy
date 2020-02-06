@@ -4,3 +4,6 @@
 [submodule "BottomTopBar"]
 	path = BottomTopBar
 	url = https://github.com/SoundClone/BottomTopBar
+[submodule "Main-Media-Player"]
+	path = Main-Media-Player
+	url = https://github.com/SoundClone/Main-Media-Player
