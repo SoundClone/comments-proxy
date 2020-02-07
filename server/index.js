@@ -28,11 +28,16 @@ app.get('/initial', (req, res) => {
     });
 });
 
-app.get('/songs', (req, res) => {
-  axios.get('http://localhost:9000/songs')
+app.get('/song', (req, res) => {
+  console.log('hello1!!');
+  axios.get('http://localhost:9000/song')
   .then((res1) => {
     res.send(res1);
   });
+});
+
+app.get('/buttons/exit.svg', (req, res) => {
+  res.send('now i just need to send the button file...')
 });
 
 // Initialise
