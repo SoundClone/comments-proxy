@@ -7,3 +7,6 @@
 [submodule "Main-Media-Player"]
 	path = Main-Media-Player
 	url = https://github.com/SoundClone/Main-Media-Player
+[submodule "Post-Comments-and-Buttons"]
+	path = Post-Comments-and-Buttons
+	url = https://github.com/SoundClone/Post-Comments-and-Buttons.git
