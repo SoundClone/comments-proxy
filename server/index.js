@@ -14,6 +14,11 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => {
+  res.send('hello world');
+  next();
+});
+
 app.get('/api/comments', (req, res) => {
   axios.get('http://localhost:3001/api/comments')
     .then((res1) => {
