@@ -46,5 +46,5 @@ app.get('/buttons/exit.svg', (req, res) => {
 });
 
 // Initialise
-const PORT = 1000;
+const PORT = 3000;
 app.listen(PORT, () => { console.log(`listening on http://localhost:${PORT}`) });
