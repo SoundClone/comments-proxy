@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes
 app.get('/api/comments', (req, res) => {
-  axios.get('http://localhost:3001/api/comments')
+  axios.get('http://18.225.11.24:3001/api/comments')
     .then((res1) => {
       res.send(res1.data);
     });
